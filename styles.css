@@ -1,0 +1,128 @@
+.bandera{
+width: 400px;
+height: 300px;
+border: 1px solid gray;
+display: inline-block;
+float: left;
+margin-bottom: 15px;
+margin-left: 15px;
+}
+
+.espana{
+    background-color: red;
+}
+
+.espana .franja{
+    margin-top: 25%;
+    height: 30%;
+    width: 100%;
+    background-color: yellow;
+    vertical-align: middle;
+
+}
+
+.dinamarca .primer{
+    height: 30%;
+    width: 30%;
+    display: inline-block;
+    background-color: red;
+    border-right: 10px solid white;
+
+
+}
+
+.dinamarca .segundo{
+    height: 30%;
+    width: 65%;
+    float: right;
+    background-color: red;
+
+}
+
+.dinamarca .tercero{
+    height: 65%;
+    width: 30%;
+    background-color: red;
+    border-top: 10px solid white;
+    display: inline-block;
+}
+
+.dinamarca .cuarto{
+    height: 65%;
+    width: 65% ;
+    float: right;
+    background-color: red;
+    border-top: 10px solid white;
+    
+
+}
+
+.emiratos-arabes{
+    background-color: red;
+}
+
+.emiratos-arabes .primer{
+    float: right;
+    height: 33.3%;
+    background-color: green;
+    width: 75%;
+
+}
+
+.emiratos-arabes .segundo{
+
+    float: right;
+    height: 33.3%;
+    background-color:white;
+    width: 75%;
+
+}
+
+.emiratos-arabes .tercero{
+    float: right;
+    height: 33.3%;
+    background-color:black;
+    width: 75%;
+
+}
+
+.japon{
+    background-color: white;
+}
+
+.japon .circle{
+    margin: 0 auto;
+    margin-top: 21%;
+    height: 40%;
+    width: 30%;
+    border-radius: 90%;
+    border: 1px solid white;
+    background-color: red;
+
+}
+
+
+.contenedor-relativo{
+    position: relative;
+}
+
+.contenedor-absoluto-item{
+    position: absolute;
+    z-index: 1;
+}
+
+.contenedor-absoluto-ribb{
+    position: absolute;
+    z-index: -1;
+}
+.uno{
+    position: relative;
+}
+
+
+.imagen-left{
+    position: absolute;
+    right: 0px;
+    
+}
+
