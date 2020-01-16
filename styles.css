@@ -126,3 +126,15 @@ margin-left: 15px;
     
 }
 
+.fondo{
+    position: relative;
+    width: fit-content;
+}
+
+.imagen{
+    position: absolute;
+    bottom: 63px;
+    right: 10px;
+    width: 25%;
+}
+
